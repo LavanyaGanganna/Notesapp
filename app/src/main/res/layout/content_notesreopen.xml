@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_notescreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="my.awesome.lavanya.notesapp.Notescreen"
+    android:background="#FAF2AD"
+    tools:showIn="@layout/activity_notescreen">
+
+    <my.awesome.lavanya.notesapp.Lineedittext
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords|textShortMessage"
+        android:hint="Title:"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:editable="false"
+        android:enabled="false"
+        android:textSize="21sp"
+        android:id="@+id/titletext"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <my.awesome.lavanya.notesapp.Lineedittext
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:hint="Note"
+        android:background="@android:color/transparent"
+        android:capitalize="words"
+        android:id="@+id/bodytext"
+        android:editable="false"
+        android:textSize="19sp"
+        android:enabled="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="top|left"
+        android:layout_below="@+id/titletext" />
+</RelativeLayout>

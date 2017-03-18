@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notesapp</string>
+    <string name="title_activity_notescreen">Notescreen</string>
+    <string name="title_activity_notesreopen">Notesreopen</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="search_str">Search</string>
+    <string name="title_activity_voicenotescreen">Voicenotescreen</string>
+    <string name="title_activity_foldercreate">Foldercreate</string>
+    <string name="title_activity_folder_open">FolderOpen</string>
+    <string name="title_activity_folder_note">FolderNote</string>
+    <string name="title_activity_foldernotereopen">Foldernotereopen</string>
+</resources>

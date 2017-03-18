@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/bytext"
+                android:title="Add Text">
+            </item>
+            <item android:id="@+id/byvoice"
+                android:title="Add Voice">
+            </item>
+        </menu>
+        </item>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView">
+
+    </item>
+    <item
+        android:id="@+id/action_create"
+        android:icon="@drawable/ic_folder"
+        android:title="newfolder"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Sortby"
+        app:showAsAction="always"/>
+
+</menu>
